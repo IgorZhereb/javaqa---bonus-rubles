@@ -2,16 +2,16 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello!");
 
-        int initial_account = 500;
-        int deposit_amount = 2000;
-        int bonus = deposit_amount / 100;
-        int final_account = initial_account + deposit_amount;
+        int initialAccount = 500;
+        int depositAmount = 1000;
+        int bonus = depositAmount / 100;
+        int finalAccount = initialAccount + depositAmount;
 
-        if (deposit_amount >= 1100) {
-            System.out.println("Итоговый счёт: " + final_account);
+        if (depositAmount >= 1100) {
+            System.out.println("Итоговый счёт: " + finalAccount);
             System.out.println("Сумма бонуса: " + bonus);
         } else {
-            System.out.println("Итоговый счет: " + final_account);
+            System.out.println("Итоговый счет: " + finalAccount);
             System.out.println("Бонус не начислен");
         }
     }
