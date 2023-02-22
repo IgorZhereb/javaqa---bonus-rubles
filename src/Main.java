@@ -7,7 +7,7 @@ public class Main {
         int bonus = depositAmount / 100;
         int finalAccount = initialAccount + depositAmount;
 
-        if (depositAmount >= 1100) {
+        if (depositAmount > 1000) {
             System.out.println("Итоговый счёт: " + finalAccount);
             System.out.println("Сумма бонуса: " + bonus);
         } else {
